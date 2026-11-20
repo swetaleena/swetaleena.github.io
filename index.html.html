@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Swetaleena Panda – Business Analytics Consultant, Coach & Mentor</title>
+<meta name="description" content="Senior business analyst, product consultant and mentor with 10+ years across healthcare, medical devices and AI products.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#ffffff; --surface:#e9eefb; --ink:#0b1b46; --muted:#44527a; --line:#cfd8ef; --accent:#9a6210; --band:#0b2a6b; --gold:#f3bf4f;
+  --serif:'Cormorant Garamond',Georgia,'Times New Roman',serif;
+  --sans:'Lato',-apple-system,'Segoe UI',Helvetica,Arial,sans-serif;
+  box-sizing:border-box; padding-top:env(safe-area-inset-top,0px); padding-bottom:env(safe-area-inset-bottom,0px);
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){--bg:#081028;--surface:#111c47;--ink:#f1f3fb;--muted:#a9b6dc;--line:#26346b;--accent:#f3bf4f;--band:#0d2f7a;color-scheme:dark}
+}
+:root[data-theme="dark"]{--bg:#081028;--surface:#111c47;--ink:#f1f3fb;--muted:#a9b6dc;--line:#26346b;--accent:#f3bf4f;--band:#0d2f7a;color-scheme:dark}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 17px/1.7 var(--sans);-webkit-font-smoothing:antialiased}
+a{color:inherit}
+a:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+.wrap{max-width:980px;margin:0 auto;padding:0 28px}
+header.top{display:flex;justify-content:space-between;align-items:center;padding:26px 0;border-bottom:1px solid var(--line)}
+.mark{font:600 22px var(--serif);text-decoration:none;letter-spacing:.02em}
+nav a{margin-left:26px;text-decoration:none;font-size:15px;color:var(--muted)}
+nav a:hover{color:var(--accent)}
+.hero,.contact{background:var(--band);box-shadow:0 0 0 100vmax var(--band);clip-path:inset(0 -100vmax);color:#fff}
+.hero{padding:96px 0 84px}
+.hero h1{color:#fff}
+.hero .role{color:var(--gold)}
+.hero .lede{color:#d3dcf6}
+h1{font:500 clamp(46px,8vw,92px)/1.02 var(--serif);margin:0 0 28px;letter-spacing:-.01em}
+.role{font:italic 500 clamp(22px,3vw,30px)/1.35 var(--serif);color:var(--accent);margin:0 0 28px;max-width:680px}
+.lede{max-width:640px;color:var(--muted);font-size:18px;margin:0 0 36px}
+.btns a{display:inline-block;padding:13px 26px;margin:0 12px 12px 0;border:1px solid #fff;color:#fff;text-decoration:none;font-size:15px;font-weight:700}
+.btns a.p{background:var(--gold);border-color:var(--gold);color:#0b1b46}
+.btns a:not(.p):hover{border-color:var(--gold);color:var(--gold)}
+section{padding:80px 0;border-bottom:1px solid var(--line)}
+h2{font:500 clamp(32px,4.5vw,46px)/1.1 var(--serif);margin:0 0 36px}
+h3{font:600 24px/1.2 var(--serif);margin:0 0 8px}
+.grid{display:grid;grid-template-columns:1fr 2fr;gap:48px}
+.grid>h2{margin:0}
+p{margin:0 0 18px}
+.muted{color:var(--muted)}
+.figs{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:36px;padding-top:28px;border-top:1px solid var(--line)}
+.figs b{display:block;font:500 40px/1 var(--serif);color:var(--accent);margin-bottom:6px}
+.figs span{font-size:14px;color:var(--muted)}
+.pillars{display:grid;grid-template-columns:repeat(3,1fr);gap:40px}
+.pillars div{border-top:4px solid var(--accent);background:var(--surface);padding:22px 22px 8px}
+.pillars p{font-size:16px;color:var(--muted)}
+.tags{margin-top:44px;display:flex;flex-wrap:wrap;gap:8px}
+.tags span{font-size:14px;padding:5px 14px;border:1px solid var(--line);background:var(--surface);color:var(--ink)}
+.tl{list-style:none;margin:0;padding:0}
+.tl li{display:grid;grid-template-columns:180px 1fr;gap:32px;padding:28px 0;border-top:1px solid var(--line)}
+.tl li:first-child{border-top:0;padding-top:0}
+.when{font-size:14px;color:var(--muted);padding-top:6px}
+.tl h3{font-size:22px}
+.org{color:var(--accent);font-size:15px;margin:0 0 10px}
+.tl p{font-size:16px;color:var(--muted);margin:0}
+.case{background:var(--surface);padding:48px;border-left:3px solid var(--accent)}
+.case .sub{color:var(--accent);font:italic 500 21px var(--serif);margin:0 0 22px}
+.case ul{margin:0 0 24px;padding-left:20px}
+.case li{margin-bottom:6px}
+.stack{font-size:14px;color:var(--muted)}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:48px}
+.two ul{list-style:none;padding:0;margin:0}
+.two li{padding:9px 0;border-bottom:1px solid var(--line);font-size:16px}
+.two h3{margin-bottom:14px}
+.contact{text-align:left;border-bottom:0;padding-left:0}
+.contact h2{color:#fff}
+.contact .muted{color:#d3dcf6}
+.contact .big{font:500 clamp(26px,4vw,40px) var(--serif);color:var(--gold);text-decoration:none;word-break:break-word}
+footer{padding:36px 0 48px;font-size:14px;color:var(--muted)}
+@media (max-width:760px){
+  .grid,.two,.pillars{grid-template-columns:1fr;gap:32px}
+  .figs{grid-template-columns:1fr}
+  .tl li{grid-template-columns:1fr;gap:6px}
+  .case{padding:28px 22px}
+  nav a{margin-left:16px}
+  .hero{padding:64px 0}
+  section{padding:56px 0}
+}
+@media (max-width:480px){nav a:not(:last-child){display:none}}
+.ph{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;background:var(--surface);border:2px dashed var(--line);color:var(--muted);font-size:14px;text-align:center;aspect-ratio:4/3;width:100%}
+.ph svg{width:34px;height:34px;fill:none;stroke:var(--accent);stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+.ph.portrait{aspect-ratio:4/5;max-width:300px}
+.cards{display:grid;grid-template-columns:repeat(2,1fr);gap:36px}
+.card h3{margin:18px 0 6px}
+.card p{font-size:16px;color:var(--muted);margin:0 0 10px}
+.card .k{font-size:13px;font-weight:700;color:var(--accent)}
+.vid{position:relative;aspect-ratio:16/9;background:var(--surface);border:2px dashed var(--line);display:flex;align-items:center;justify-content:center;color:var(--muted);font-size:14px;text-align:center;padding:20px}
+.vid.on{border:0;padding:0;background:#000;margin-bottom:34px}
+.vid iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.vlink{position:absolute;left:0;top:calc(100% + 8px);font-size:13px}
+.gal{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:40px}
+.gal figure{margin:0}
+.gal figcaption{font-size:14px;color:var(--muted);margin-top:8px}
+.quotes{display:grid;grid-template-columns:repeat(3,1fr);gap:28px}
+.q{background:var(--surface);border-top:4px solid var(--accent);padding:28px 24px;display:flex;flex-direction:column}
+.q blockquote{margin:0 0 22px;font:italic 500 21px/1.45 var(--serif)}
+.q .who{display:flex;gap:14px;align-items:center;margin-top:auto;font-size:14px;color:var(--muted);line-height:1.4}
+.q .av{width:48px;height:48px;border-radius:50%;border:2px dashed var(--line);flex:none}
+@media (max-width:760px){.cards,.gal,.quotes{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="top">
+  <a class="mark" href="#top">Swetaleena Panda</a>
+  <nav><a href="#about">About</a><a href="#projects">Projects</a><a href="#sessions">Sessions</a><a href="#testimonials">Testimonials</a><a href="#contact">Contact</a></nav>
+</header>
+
+<main id="top">
+<div class="hero">
+  <h1>Swetaleena Panda</h1>
+  <p class="role">Business analytics consultant, coach and mentor.</p>
+  <p class="lede">I help founders, product teams and new analysts turn unclear problems into clear decisions. Over ten years, I’ve worked on regulated healthcare software, enterprise platforms and AI products.</p>
+  <div class="btns"><a class="p" href="#contact">Work with me</a><a href="#work">See how I work</a></div>
+</div>
+
+<section id="about">
+  <div class="grid">
+    <div><h2>About</h2><div class="ph portrait"><svg viewBox="0 0 24 24"><use href="#img"/></svg>Add your portrait</div></div>
+    <div>
+      <p>I began as a software engineer at Siemens, then moved into business analysis and product ownership for medical device and healthcare platforms, with teams across the US, UK and Germany.</p>
+      <p>Today I work independently. I advise small businesses and startup founders, build analytics and ESG reporting solutions, and train the next generation of analysts through hands-on, experiential learning.</p>
+      <p class="muted">M.Tech in Power Electronics · B.E. in Electronics &amp; Instrumentation Engineering</p>
+      <div class="figs">
+        <div><b>10+</b><span>years delivering enterprise software products</span></div>
+        <div><b>200+</b><span>analytics professionals trained</span></div>
+        <div><b>30+</b><span>business analysts mentored</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="work">
+  <h2>How I can help</h2>
+  <div class="pillars">
+    <div><h3>Consulting</h3><p>Product and process audits, market research, go-to-market strategy, pitch decks and business models for SMEs, MSMEs and startups.</p></div>
+    <div><h3>Analytics</h3><p>Power BI and Excel dashboards, KPI reporting and ESG reporting, designed so that decision makers can use them without help.</p></div>
+    <div><h3>Coaching &amp; mentoring</h3><p>Experiential programmes in requirement engineering, Agile delivery and analysis skills for analysts at every stage.</p></div>
+  </div>
+  <div class="tags">
+    <span>Requirement engineering</span><span>Product strategy</span><span>SQL</span><span>Power BI</span><span>Advanced Excel</span><span>Agile coaching</span><span>Stakeholder workshops</span><span>Medical device compliance</span><span>Responsible AI</span>
+  </div>
+</section>
+
+<section id="featured">
+  <h2>Featured product: Scrum Buddy</h2>
+  <div class="case">
+    <p class="sub">A multi-agent AI platform for Agile learning</p>
+    <p>Business schools wanted students to experience an industry-like Agile team without needing an experienced professional in every session. I led product definition for a platform where AI agents play the Business Analyst, Scrum Master, QA Engineer and Product Owner.</p>
+    <ul>
+      <li>Defined the MVP and product workflow, and co-authored the PRD</li>
+      <li>Designed persona switching, the AI evaluation framework and the prompt strategy</li>
+      <li>Shaped features such as the BA Story Optimizer, QA Edge Case Generator and Retro Facilitator</li>
+    </ul>
+    <p><strong>Reported outcomes:</strong> 40% less effort to write user stories, 15% higher sprint completion and about 3.5 hours saved per team each week.</p>
+    <p class="stack">Azure OpenAI · GPT-4o · LangChain · Semantic Kernel · Pinecone · RAG</p>
+  </div>
+</section>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><symbol id="img" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="9" cy="10" r="1.8"/><path d="M21 16l-5-5-8 8"/></symbol></svg>
+
+<section id="projects">
+  <h2>Selected projects</h2>
+  <div class="cards">
+    <article class="card"><div class="ph"><svg viewBox="0 0 24 24"><use href="#img"/></svg>Add project image</div><h3>Infusion pump software</h3><p>Requirement engineering for Novum and Spectrum pump interfaces, live infusion monitoring and HL7 communication, under FDA Class II compliance.</p><span class="k">Healthcare · Medical devices</span></article>
+    <article class="card"><div class="ph"><svg viewBox="0 0 24 24"><use href="#img"/></svg>Add project image</div><h3>ESG dashboards for small industries</h3><p>Power BI and Excel reporting solutions that make sustainability data simple to track and share.</p><span class="k">Analytics · Sustainability</span></article>
+    <article class="card"><div class="ph"><svg viewBox="0 0 24 24"><use href="#img"/></svg>Add project image</div><h3>Device management platform</h3><p>Workflows for DICOM communication, configuration synchronisation and scanning data, delivered across the US, UK and Germany.</p><span class="k">Enterprise · Diagnostic imaging</span></article>
+    <article class="card"><div class="ph"><svg viewBox="0 0 24 24"><use href="#img"/></svg>Add project image</div><h3>Startup advisory</h3><p>Pitch decks, business models, market research and go-to-market strategy for EdTech, HealthTech and dairy-sector founders.</p><span class="k">Consulting · Strategy</span></article>
+  </div>
+</section>
+
+<section id="sessions">
+  <h2>Sessions &amp; workshops</h2>
+  <p class="muted" style="max-width:640px">Hands-on training, mentoring circles and talks. Add a recording or photos from your sessions here.</p>
+  <div class="cards" style="margin-top:28px">
+    <div><div class="vid" data-yt="">Video placeholder: paste a YouTube link</div><h3>Featured session</h3></div>
+    <div><div class="vid" data-yt="">Video placeholder: paste a YouTube link</div><h3>Talk or workshop recording</h3></div>
+  </div>
+  <div class="gal">
+    <figure><div class="ph"><svg viewBox="0 0 24 24"><use href="#img"/></svg>Add photo</div><figcaption>Analytics training session</figcaption></figure>
+    <figure><div class="ph"><svg viewBox="0 0 24 24"><use href="#img"/></svg>Add photo</div><figcaption>Mentoring workshop</figcaption></figure>
+    <figure><div class="ph"><svg viewBox="0 0 24 24"><use href="#img"/></svg>Add photo</div><figcaption>Conference talk</figcaption></figure>
+  </div>
+</section>
+
+<section id="testimonials">
+  <h2>Kind words</h2>
+  <div class="quotes">
+    <div class="q"><blockquote>Add a testimonial from a client here: two or three sentences on the result you achieved together.</blockquote><div class="who"><span class="av"></span><span>Name, role<br>Organisation</span></div></div>
+    <div class="q"><blockquote>Add a testimonial from a mentee or workshop participant here.</blockquote><div class="who"><span class="av"></span><span>Name, role<br>Organisation</span></div></div>
+    <div class="q"><blockquote>Add a testimonial from a colleague or product leader here.</blockquote><div class="who"><span class="av"></span><span>Name, role<br>Organisation</span></div></div>
+  </div>
+</section>
+
+<section id="journey">
+  <h2>Journey</h2>
+  <ul class="tl">
+    <li><div class="when">Mar 2025 – present</div><div><h3>Independent Business Analytics Consultant</h3><p>Advising EdTech, HealthTech and dairy-sector businesses on strategy, market research and analytics, and building ESG dashboards for small industries.</p></div></li>
+    <li><div class="when">Jun 2023 – Feb 2025</div><div><h3>Senior Business Analyst / Proxy Product Owner</h3><div class="org">Quess Corp, for Baxter Healthcare</div><p>Led requirements for FDA Class II infusion pump software, from pump interfaces to HL7 communication. Standardised design documents, strengthened traceability and led workshops of up to 60 people.</p></div></li>
+    <li><div class="when">Nov 2022 – Jun 2023</div><div><h3>Senior Business Analyst / Proxy Product Owner</h3><div class="org">Siemens Healthineers</div><p>Defined workflows for DICOM communication and device configuration, and delivered two enterprise releases across the US, UK and Germany.</p></div></li>
+    <li><div class="when">Nov 2021 – Nov 2022</div><div><h3>Business Analyst</h3><div class="org">Cyient, for Beckman Coulter</div><p>Defined requirements for hematology analyzer backup and storage, and prioritised the backlog as Proxy Product Owner.</p></div></li>
+    <li><div class="when">Oct 2019 – Oct 2021</div><div><h3>Founder &amp; Product Research Lead</h3><div class="org">SANISA Research &amp; Development Centre</div><p>Led research-to-product work in healthcare, sustainability and education technology.</p></div></li>
+    <li><div class="when">Oct 2015 – Oct 2019</div><div><h3>Software Engineer</h3><div class="org">Siemens</div><p>Built enterprise applications and designed backup and restore for Spectrum Power substation automation software.</p></div></li>
+  </ul>
+</section>
+
+<section id="credentials">
+  <div class="two">
+    <div>
+      <h3>Certifications</h3>
+      <ul><li>Certified Scrum Master (CSM)</li><li>Certified Internal Auditor, ISO 9001:2015</li><li>Sustainability Reporting</li><li>Ethical AI &amp; Governance</li><li>Certified Graphologist</li><li>Vedic Knowledge &amp; Management</li></ul>
+    </div>
+    <div>
+      <h3>Recognition</h3>
+      <ul><li>Patent filed: Forecast Intelligence for Outage Control</li><li>IEEE INDICON publication</li><li>Safer India Ideathon finalist, Government of India</li><li>Speaker, World Aqua Congress</li></ul>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <h2>Let’s talk</h2>
+  <p class="muted" style="max-width:560px">For consulting, analytics projects, mentoring programmes or speaking invitations, write to me.</p>
+  <p><a class="big" href="mailto:sweta15leena@gmail.com">sweta15leena@gmail.com</a></p>
+  <p><a href="https://linkedin.com/in/msswetaleenapanda">linkedin.com/in/msswetaleenapanda</a></p>
+</section>
+</main>
+
+<footer>© 2026 Swetaleena Panda · Odisha, India</footer>
+</div>
+<script>
+document.querySelectorAll('.vid').forEach(function(el){
+  var m=(el.getAttribute('data-yt')||'').match(/(?:youtu\.be\/|v=|embed\/|shorts\/)([\w-]{11})/);
+  if(!m)return;
+  el.innerHTML='<iframe src="https://www.youtube-nocookie.com/embed/'+m[1]+'" title="Session video" loading="lazy" allow="accelerometer; encrypted-media; picture-in-picture" allowfullscreen></iframe><a class="vlink" href="https://youtu.be/'+m[1]+'">Watch on YouTube</a>';
+  el.classList.add('on');
+});
+</script>
+</body>
+</html>
